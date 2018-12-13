@@ -1,0 +1,20 @@
+{
+    "name": "root/code",
+    "authors": [
+        {
+            "name": "Paulo Birro",
+            "email": "paulohbirro@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": 
+    {"psr-4": 
+        { "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Views\\": "views/"
+             
+                 }
+    }
+}
